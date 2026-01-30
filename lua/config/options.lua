@@ -26,6 +26,12 @@ end)
 -- Enable break indent
 vim.o.breakindent = true
 
+vim.opt.tabstop = 4 -- A TAB character looks like 4 spaces
+vim.opt.shiftwidth = 4 -- Number of spaces inserted when indenting
+vim.opt.expandtab = true -- Pressing the TAB key inserts spaces
+vim.opt.softtabstop = 4 -- Number of spaces inserted for one <Tab> press
+vim.opt.autoindent = true -- Copy indent from current line when starting a new line
+
 -- Save undo history
 vim.o.undofile = true
 

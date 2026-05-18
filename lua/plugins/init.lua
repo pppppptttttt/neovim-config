@@ -17,12 +17,13 @@ return {
   require 'plugins.mini',
   require 'plugins.treesitter',
 
-  -- require 'plugins.codeium',
-
   require 'plugins.bufferline',
 
   require 'plugins.neo-tree',
 
+  require 'plugins.vim-tmux-navigator',
+
   -- require 'plugins.tokyonight',
-  require 'plugins.nord',
+  -- require 'plugins.nord',
+  require 'plugins.no-clown-fiesta',
 }
